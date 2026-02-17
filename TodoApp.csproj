@@ -9,6 +9,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Diagrams\**" />
+    <EmbeddedResource Remove="Diagrams\**" />
+    <None Remove="Diagrams\**" />
+    <Page Remove="Diagrams\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <EditorConfigFiles Remove="C:\Users\Dev10\Desktop\basic to expert C# education\Codes\New folder %282%29\TodoApp\.editorconfig" />
   </ItemGroup>
 
